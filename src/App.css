@@ -14,3 +14,68 @@ body{
   width: 60%;
   padding: 10px;
 }
+
+.info-container{
+  background-color: #21222A;
+  text-align: center;
+}
+
+.info-container > h6 {
+  color: #FFBF00;
+  font-size: small;
+  font-weight: 350;
+  margin-top: 5px;
+}
+
+.info-container > p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 10;
+  font-size: smaller;
+}
+
+.email{
+  background-color: white;
+  color: #21222A;
+  width: 200px;
+  padding: 4px;
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.about-container{
+  background-color: #21222A;
+  padding: 40px;
+}
+
+.about-container > h3 {
+  padding-bottom: 10px;
+}
+
+.about-container > p {
+  font-size: smaller;
+  font-weight: 20;
+}
+
+.interests-container{
+  background-color: #21222A;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: -10px;
+  padding-bottom: 40px;
+}
+
+.interests-container > h3 {
+  padding-bottom: 10px;
+}
+
+.interests-container{
+  font-size: smaller;
+  font-weight: 20;
+}
+
+footer{
+  background-color: #000000;
+  padding: 30px 40px 40px 30px;
+}
