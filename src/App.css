@@ -77,5 +77,25 @@ body{
 
 footer{
   background-color: #000000;
-  padding: 30px 40px 40px 30px;
+  padding-left: 40px;
+  /* height: 70px; */
+  /* padding: 30px 40px 40px 30px; */
 }
+
+.footer-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icons > scan {
+  padding: 25px;
+  color: #000000;
+}
+
+.icon{
+  padding: 7px;
+  background-color: #808080;
+}
+

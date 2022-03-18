@@ -1,11 +1,27 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Twitter, GitHub, Facebook, Instagram } from '@mui/icons-material';
 
-
+const style = {
+    fontSize: 30,
+}
 
 export default function Footer() {
     return (
         <footer>
-                © 2021 Slimcent development. All rights reserved.
+               <div className='footer-icons'>
+                    <scan>
+                        <Twitter style={style} className='icon'/>
+                    </scan>
+                    <scan>
+                        <Facebook style={style} className='icon'/>
+                    </scan>
+                    <scan>
+                        <Instagram style={style} className='icon'/>
+                    </scan>
+                    <scan>
+                        <GitHub style={style} className='icon'/>
+                    </scan>
+               </div>
         </footer>
     )
 }

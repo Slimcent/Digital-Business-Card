@@ -1,8 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMessage } from '@fortawesome/free-solid-svg-icons'
-import {  } from '@fortawesome/free-solid-svg-icons'
-
-
 
 export default function Information() {
     return (
