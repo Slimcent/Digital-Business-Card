@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Twitter, GitHub, Facebook, Instagram } from '@mui/icons-material';
 
 const style = {
@@ -21,6 +20,7 @@ export default function Footer() {
                     <scan>
                         <GitHub style={style} className='icon'/>
                     </scan>
+                    
                </div>
         </footer>
     )

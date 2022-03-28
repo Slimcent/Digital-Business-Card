@@ -3,7 +3,7 @@ export default function About() {
         <div className="about-container">
             <h3>About</h3>
             <p>
-            I am a Fullstack software developer. I write C Sharp, which I use to develop
+            I am a Backend software developer. I write C Sharp, which I use to develop
             web applications. I am very good with Asp.Net core framework, entity frameworkcore
             web api.
             I have interest in frontend development, which made me to be interested in React.
