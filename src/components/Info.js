@@ -5,8 +5,9 @@ export default function Information() {
     return (
        <div className="info-container">
            <div className="imageContainer">
-                <img src={Obi} className="obi"/>
+                
            </div>
+           <img src={Obi} className="obi"/>
            <h3>Achara Obinna V</h3>
            <h6>Backend Developer</h6>
            <p>obinna.achara.com</p>
